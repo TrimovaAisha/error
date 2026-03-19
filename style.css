@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+/* Красивый стиль */
+header {
+    background: white;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+    background: white;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+/* Галерея */
+.gallery {
+    margin: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+}
+
+/* ❌ Ошибка 7: картинки не выровнены */
+.img1 {
+    width: 300px;
+}
+
+/* ❌ Ошибка 8: другая картинка другого размера */
+.img2 {
+    width: 150px;
+}
+
+/* ❌ Ошибка 9: только одна картинка увеличивается */
+.img1:hover {
+    transform: scale(1.2);
+}
+
+/* Текст */
+.small-text {
+    font-size: 10px;
+}
+
+/* ❌ Ошибка 10: адаптивность сломана */
+@media (max-width: 600px) {
+    body {
+        width: 1200px; /* ломает адаптив */
+    }
+}
+
+/* маленькая кнопка */
+.tiny-btn {
+    padding: 2px 5px;
+    font-size: 10px;
+}
