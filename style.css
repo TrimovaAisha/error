@@ -4,7 +4,6 @@ body {
     background: #f5f5f5;
 }
 
-/* Красивый стиль */
 header {
     background: white;
     padding: 20px;
@@ -35,7 +34,6 @@ button {
     cursor: pointer;
 }
 
-/* Галерея */
 .gallery {
     margin: 20px;
     background: white;
@@ -48,34 +46,28 @@ button {
     gap: 20px;
 }
 
-/* ❌ Ошибка 7: картинки не выровнены */
 .img1 {
     width: 300px;
 }
 
-/* ❌ Ошибка 8: другая картинка другого размера */
 .img2 {
     width: 150px;
 }
 
-/* ❌ Ошибка 9: только одна картинка увеличивается */
 .img1:hover {
     transform: scale(1.2);
 }
 
-/* Текст */
 .small-text {
     font-size: 10px;
 }
 
-/* ❌ Ошибка 10: адаптивность сломана */
 @media (max-width: 600px) {
     body {
-        width: 1200px; /* ломает адаптив */
+        width: 1200px; 
     }
 }
 
-/* маленькая кнопка */
 .tiny-btn {
     padding: 2px 5px;
     font-size: 10px;
